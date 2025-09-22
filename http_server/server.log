@@ -1,0 +1,70 @@
+2025-09-21 22:45:13,914 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-09-21 22:45:13,935 - __main__ - INFO - Starting HTTP server on localhost:8000
+2025-09-21 22:45:13,935 - __main__ - INFO - Available endpoints:
+2025-09-21 22:45:13,935 - __main__ - INFO -   GET  /           - Server information
+2025-09-21 22:45:13,935 - __main__ - INFO -   GET  /health     - Health check
+2025-09-21 22:45:13,935 - __main__ - INFO -   GET  /api/status - Server status
+2025-09-21 22:45:13,936 - __main__ - INFO -   GET  /api/time   - Current time
+2025-09-21 22:45:13,936 - __main__ - INFO -   GET  /api/echo   - Echo request data
+2025-09-21 22:45:13,936 - __main__ - INFO -   GET  /api/users  - List users
+2025-09-21 22:45:13,936 - __main__ - INFO -   POST /api/users  - Create user
+2025-09-21 22:45:13,936 - __main__ - INFO -   POST /api/echo   - Echo request data
+2025-09-21 22:46:17,625 - __main__ - INFO - Server interrupted by user
+2025-09-21 22:46:17,626 - __main__ - INFO - Stopping HTTP server...
+2025-09-21 22:46:17,627 - __main__ - INFO - Server stopped
+2025-09-21 22:46:17,627 - __main__ - INFO - Stopping HTTP server...
+2025-09-21 22:46:17,627 - __main__ - INFO - Server stopped
+2025-09-21 22:46:25,404 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-09-21 22:46:25,410 - __main__ - INFO - Starting HTTP server on localhost:8000
+2025-09-21 22:46:25,411 - __main__ - INFO - Available endpoints:
+2025-09-21 22:46:25,411 - __main__ - INFO -   GET  /           - Server information
+2025-09-21 22:46:25,411 - __main__ - INFO -   GET  /health     - Health check
+2025-09-21 22:46:25,411 - __main__ - INFO -   GET  /api/status - Server status
+2025-09-21 22:46:25,411 - __main__ - INFO -   GET  /api/time   - Current time
+2025-09-21 22:46:25,411 - __main__ - INFO -   GET  /api/echo   - Echo request data
+2025-09-21 22:46:25,411 - __main__ - INFO -   GET  /api/users  - List users
+2025-09-21 22:46:25,411 - __main__ - INFO -   POST /api/users  - Create user
+2025-09-21 22:46:25,411 - __main__ - INFO -   POST /api/echo   - Echo request data
+2025-09-21 22:46:41,258 - __main__ - INFO - GET / - 127.0.0.1
+2025-09-21 22:46:41,259 - __main__ - INFO - 127.0.0.1 - "GET / HTTP/1.1" 200 -
+2025-09-21 22:46:41,351 - __main__ - INFO - GET /favicon.ico - 127.0.0.1
+2025-09-21 22:46:41,351 - __main__ - INFO - 127.0.0.1 - "GET /favicon.ico HTTP/1.1" 404 -
+2025-09-21 22:47:00,017 - __main__ - INFO - GET /.well-known/appspecific/com.chrome.devtools.json - 127.0.0.1
+2025-09-21 22:47:00,017 - __main__ - INFO - 127.0.0.1 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+2025-09-21 22:47:05,778 - __main__ - INFO - GET / - 127.0.0.1
+2025-09-21 22:47:05,779 - __main__ - INFO - 127.0.0.1 - "GET / HTTP/1.1" 200 -
+2025-09-21 22:47:05,864 - __main__ - INFO - GET /.well-known/appspecific/com.chrome.devtools.json - 127.0.0.1
+2025-09-21 22:47:05,866 - __main__ - INFO - 127.0.0.1 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+2025-09-21 22:48:29,262 - __main__ - INFO - GET /api/status - 127.0.0.1
+2025-09-21 22:48:29,262 - __main__ - INFO - 127.0.0.1 - "GET /api/status HTTP/1.1" 200 -
+2025-09-21 22:48:29,355 - __main__ - INFO - GET /.well-known/appspecific/com.chrome.devtools.json - 127.0.0.1
+2025-09-21 22:48:29,356 - __main__ - INFO - 127.0.0.1 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+2025-09-21 22:48:35,673 - __main__ - INFO - GET /api/sthealthatus - 127.0.0.1
+2025-09-21 22:48:35,673 - __main__ - INFO - 127.0.0.1 - "GET /api/sthealthatus HTTP/1.1" 404 -
+2025-09-21 22:48:35,710 - __main__ - INFO - GET /.well-known/appspecific/com.chrome.devtools.json - 127.0.0.1
+2025-09-21 22:48:35,711 - __main__ - INFO - 127.0.0.1 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+2025-09-21 22:48:48,653 - __main__ - INFO - GET /health - 127.0.0.1
+2025-09-21 22:48:48,653 - __main__ - INFO - 127.0.0.1 - "GET /health HTTP/1.1" 200 -
+2025-09-21 22:48:48,705 - __main__ - INFO - GET /.well-known/appspecific/com.chrome.devtools.json - 127.0.0.1
+2025-09-21 22:48:48,724 - __main__ - INFO - 127.0.0.1 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+2025-09-21 22:48:58,883 - __main__ - INFO - GET /api/echo - 127.0.0.1
+2025-09-21 22:48:58,883 - __main__ - INFO - 127.0.0.1 - "GET /api/echo HTTP/1.1" 200 -
+2025-09-21 22:48:58,919 - __main__ - INFO - GET /.well-known/appspecific/com.chrome.devtools.json - 127.0.0.1
+2025-09-21 22:48:58,919 - __main__ - INFO - 127.0.0.1 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+2025-09-21 22:49:09,560 - __main__ - INFO - GET /api/echo - 127.0.0.1
+2025-09-21 22:49:09,561 - __main__ - INFO - 127.0.0.1 - "GET /api/echo?x=y HTTP/1.1" 200 -
+2025-09-21 22:49:09,600 - __main__ - INFO - GET /.well-known/appspecific/com.chrome.devtools.json - 127.0.0.1
+2025-09-21 22:49:09,641 - __main__ - INFO - 127.0.0.1 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+2025-09-21 22:50:50,560 - __main__ - INFO - GET /api/users - 127.0.0.1
+2025-09-21 22:50:50,560 - __main__ - INFO - 127.0.0.1 - "GET /api/users HTTP/1.1" 200 -
+2025-09-21 22:50:50,588 - __main__ - INFO - GET /.well-known/appspecific/com.chrome.devtools.json - 127.0.0.1
+2025-09-21 22:50:50,588 - __main__ - INFO - 127.0.0.1 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+2025-09-21 22:51:34,853 - __main__ - INFO - GET /api/users - 127.0.0.1
+2025-09-21 22:51:34,853 - __main__ - INFO - 127.0.0.1 - "GET /api/users?gender=female HTTP/1.1" 200 -
+2025-09-21 22:51:34,884 - __main__ - INFO - GET /.well-known/appspecific/com.chrome.devtools.json - 127.0.0.1
+2025-09-21 22:51:34,884 - __main__ - INFO - 127.0.0.1 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+2025-09-22 14:49:18,214 - __main__ - INFO - Server interrupted by user
+2025-09-22 14:49:18,218 - __main__ - INFO - Stopping HTTP server...
+2025-09-22 14:49:18,220 - __main__ - INFO - Server stopped
+2025-09-22 14:49:18,220 - __main__ - INFO - Stopping HTTP server...
+2025-09-22 14:49:18,221 - __main__ - INFO - Server stopped
