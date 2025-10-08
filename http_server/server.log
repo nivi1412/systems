@@ -68,3 +68,20 @@
 2025-09-22 14:49:18,220 - __main__ - INFO - Server stopped
 2025-09-22 14:49:18,220 - __main__ - INFO - Stopping HTTP server...
 2025-09-22 14:49:18,221 - __main__ - INFO - Server stopped
+2025-10-08 18:27:49,630 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-10-08 18:27:49,639 - __main__ - ERROR - Server error: [Errno 48] Address already in use
+2025-10-08 18:28:06,849 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-10-08 18:28:06,859 - __main__ - INFO - Starting HTTP server on localhost:8000
+2025-10-08 18:28:06,859 - __main__ - INFO - Available endpoints:
+2025-10-08 18:28:06,859 - __main__ - INFO -   GET  /           - Server information
+2025-10-08 18:28:06,859 - __main__ - INFO -   GET  /health     - Health check
+2025-10-08 18:28:06,860 - __main__ - INFO -   GET  /api/status - Server status
+2025-10-08 18:28:06,860 - __main__ - INFO -   GET  /api/time   - Current time
+2025-10-08 18:28:06,860 - __main__ - INFO -   GET  /api/echo   - Echo request data
+2025-10-08 18:28:06,860 - __main__ - INFO -   GET  /api/users  - List users
+2025-10-08 18:28:06,860 - __main__ - INFO -   POST /api/users  - Create user
+2025-10-08 18:28:06,860 - __main__ - INFO -   POST /api/echo   - Echo request data
+2025-10-08 18:36:38,056 - __main__ - INFO - GET / - 127.0.0.1
+2025-10-08 18:36:38,061 - __main__ - INFO - 127.0.0.1 - "GET / HTTP/1.1" 200 -
+2025-10-08 18:36:38,230 - __main__ - INFO - GET /favicon.ico - 127.0.0.1
+2025-10-08 18:36:38,232 - __main__ - INFO - 127.0.0.1 - "GET /favicon.ico HTTP/1.1" 404 -

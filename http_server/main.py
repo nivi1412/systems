@@ -66,7 +66,7 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
         
         logger.info(f"{method} {path} - {self.client_address[0]}")
         
-        if path in self.routes:
+        if path in self.routes:         
             try:
                 self.routes[path]()
             except Exception as e:

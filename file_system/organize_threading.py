@@ -7,10 +7,13 @@
 from pathlib import Path
 from openai import OpenAI
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import json
-import os
+import json,os,threading,time
+
+time_log = []
+lock = threading.Lock()
 
 def convert_filenames(old_path):
+    start=time.time
     old_name=old_path.split("/")
     old_name=old_name[-1]
     client = OpenAI()  # Create client inside function
@@ -26,7 +29,8 @@ def convert_filenames(old_path):
     )
 
     raw_json = completion.choices[0].message.content
-    return raw_json,old_name,old_path
+    elapsed=time.time-start
+    return raw_json,old_name,old_path,elapsed
 
 folder="/Users/lingalarahul/Documents/Nivi/"
 folder=Path(folder)
@@ -40,12 +44,16 @@ THREAD_COUNT=10
 with ThreadPoolExecutor(max_workers=THREAD_COUNT) as executor:
     futures = [executor.submit(convert_filenames, k) for k in old_path]
     for fut in as_completed(futures):
-        raw_json,old_name,old_path=fut.result()
+        raw_json,old_name,old_path,elapsed=fut.result()
         new_name=json.loads(raw_json)['new_name']
-        print(f"{new_name}->{old_name}")
+        # print(f"{new_name}->{old_name}")
         new_path=Path(old_path).with_name(new_name)
         os.rename(old_path, str(new_path))
+    with lock:
+        time_log.append((old_name, new_name, elapsed))
     
+for entry in time_log:
+    print(entry)
 
 
 
