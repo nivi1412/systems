@@ -137,3 +137,37 @@
 2025-10-08 23:47:35,573 - __main__ - INFO - POST /user - 127.0.0.1
 2025-10-08 23:48:12,047 - __main__ - INFO - PATCH /user/f43d5239-a250-4a45-ac6a-ec9816170265 - 127.0.0.1
 2025-10-08 23:48:38,691 - __main__ - INFO - DELETE /user/f43d5239-a250-4a45-ac6a-ec9816170265 - 127.0.0.1
+2025-10-09 19:50:40,938 - __main__ - INFO - Server interrupted by user
+2025-10-09 19:50:40,943 - __main__ - INFO - Stopping HTTP server...
+2025-10-09 19:50:40,944 - __main__ - INFO - Server stopped
+2025-10-09 19:50:40,944 - __main__ - INFO - Stopping HTTP server...
+2025-10-09 19:50:40,945 - __main__ - INFO - Server stopped
+2025-10-09 19:50:41,574 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-10-09 19:50:41,584 - __main__ - INFO - Starting HTTP server on localhost:8000
+2025-10-09 19:50:41,584 - __main__ - INFO - Available endpoints:
+2025-10-09 19:50:41,584 - __main__ - INFO -   GET    /           - Server information
+2025-10-09 19:50:41,584 - __main__ - INFO -   GET    /users      - get users name.place,occupation
+2025-10-09 19:50:41,584 - __main__ - INFO -   POST   /user       - create user/edit user/delete user
+2025-10-09 19:58:49,491 - __main__ - INFO - Server interrupted by user
+2025-10-09 19:58:49,493 - __main__ - INFO - Stopping HTTP server...
+2025-10-09 19:58:49,494 - __main__ - INFO - Server stopped
+2025-10-09 19:58:49,494 - __main__ - INFO - Stopping HTTP server...
+2025-10-09 19:58:49,494 - __main__ - INFO - Server stopped
+2025-10-09 19:58:50,105 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-10-09 19:58:50,115 - __main__ - INFO - Starting HTTP server on localhost:8000
+2025-10-09 19:58:50,115 - __main__ - INFO - Available endpoints:
+2025-10-09 19:58:50,115 - __main__ - INFO -   GET    /           - Server info
+2025-10-09 19:58:50,115 - __main__ - INFO -   GET    /users      - List users (filters: name, place, occupation)
+2025-10-09 19:58:50,115 - __main__ - INFO -   POST   /user       - Create user
+2025-10-09 19:58:50,116 - __main__ - INFO -   PATCH  /user/<uuid> - Update user
+2025-10-09 19:58:50,116 - __main__ - INFO -   DELETE /user/<uuid> - Delete user
+2025-10-09 19:59:50,667 - __main__ - INFO - GET /users - 127.0.0.1
+2025-10-09 20:00:23,902 - __main__ - INFO - PATCH /user/5480dadf-1138-4225-acd4-9ba57fc639ae - 127.0.0.1
+2025-10-09 20:00:31,410 - __main__ - INFO - GET /users - 127.0.0.1
+2025-10-09 20:00:55,797 - __main__ - INFO - DELETE /user/5480dadf-1138-4225-acd4-9ba57fc639ae - 127.0.0.1
+2025-10-09 20:00:58,918 - __main__ - INFO - GET /users - 127.0.0.1
+2025-10-12 12:08:48,705 - __main__ - INFO - Server interrupted by user
+2025-10-12 12:08:48,716 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 12:08:48,719 - __main__ - INFO - Server stopped
+2025-10-12 12:08:48,720 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 12:08:48,720 - __main__ - INFO - Server stopped

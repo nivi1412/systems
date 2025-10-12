@@ -85,3 +85,18 @@
 2025-10-08 18:36:38,061 - __main__ - INFO - 127.0.0.1 - "GET / HTTP/1.1" 200 -
 2025-10-08 18:36:38,230 - __main__ - INFO - GET /favicon.ico - 127.0.0.1
 2025-10-08 18:36:38,232 - __main__ - INFO - 127.0.0.1 - "GET /favicon.ico HTTP/1.1" 404 -
+2025-10-12 12:08:40,254 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-10-12 12:08:40,262 - __main__ - ERROR - Server error: [Errno 48] Address already in use
+2025-10-12 12:08:52,363 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-10-12 12:08:52,374 - __main__ - INFO - Starting HTTP server on localhost:8000
+2025-10-12 12:08:52,374 - __main__ - INFO - Available endpoints:
+2025-10-12 12:08:52,374 - __main__ - INFO -   GET    /           - Server info
+2025-10-12 12:08:52,374 - __main__ - INFO -   GET    /users      - List users (filters: name, place, occupation)
+2025-10-12 12:08:52,375 - __main__ - INFO -   POST   /user       - Create user
+2025-10-12 12:08:52,375 - __main__ - INFO -   PATCH  /user/<uuid> - Update user
+2025-10-12 12:08:52,375 - __main__ - INFO -   DELETE /user/<uuid> - Delete user
+2025-10-12 12:08:58,551 - __main__ - INFO - Server interrupted by user
+2025-10-12 12:08:58,551 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 12:08:58,551 - __main__ - INFO - Server stopped
+2025-10-12 12:08:58,551 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 12:08:58,551 - __main__ - INFO - Server stopped

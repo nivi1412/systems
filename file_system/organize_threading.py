@@ -49,8 +49,8 @@ with ThreadPoolExecutor(max_workers=THREAD_COUNT) as executor:
         # print(f"{new_name}->{old_name}")
         new_path=Path(old_path).with_name(new_name)
         os.rename(old_path, str(new_path))
-    with lock:
-        time_log.append((old_name, new_name, elapsed))
+        with lock:
+            time_log.append((old_name, new_name, elapsed))
     
 for entry in time_log:
     print(entry)
