@@ -100,3 +100,100 @@
 2025-10-12 12:08:58,551 - __main__ - INFO - Server stopped
 2025-10-12 12:08:58,551 - __main__ - INFO - Stopping HTTP server...
 2025-10-12 12:08:58,551 - __main__ - INFO - Server stopped
+2025-10-12 21:45:53,111 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-10-12 21:45:53,120 - __main__ - INFO - Starting HTTP server on localhost:8000
+2025-10-12 21:45:53,120 - __main__ - INFO - Available endpoints:
+2025-10-12 21:45:53,120 - __main__ - INFO -   GET    /           - Server info
+2025-10-12 21:45:53,120 - __main__ - INFO -   GET    /users      - List users (filters: name, place, occupation)
+2025-10-12 21:45:53,120 - __main__ - INFO -   POST   /user       - Create user
+2025-10-12 21:45:53,120 - __main__ - INFO -   PATCH  /user/<uuid> - Update user
+2025-10-12 21:45:53,120 - __main__ - INFO -   DELETE /user/<uuid> - Delete user
+2025-10-12 21:46:42,934 - __main__ - INFO - GET /users - 127.0.0.1
+2025-10-12 21:48:29,253 - __main__ - INFO - Server interrupted by user
+2025-10-12 21:48:29,253 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 21:48:29,253 - __main__ - INFO - Server stopped
+2025-10-12 21:48:29,253 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 21:48:29,254 - __main__ - INFO - Server stopped
+2025-10-12 21:48:31,371 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-10-12 21:48:31,375 - __main__ - INFO - Starting HTTP server on localhost:8000
+2025-10-12 21:48:31,376 - __main__ - INFO - Available endpoints:
+2025-10-12 21:48:31,376 - __main__ - INFO -   GET    /           - Server info
+2025-10-12 21:48:31,376 - __main__ - INFO -   GET    /users      - List users (filters: name, place, occupation)
+2025-10-12 21:48:31,376 - __main__ - INFO -   POST   /user       - Create user
+2025-10-12 21:48:31,376 - __main__ - INFO -   PATCH  /user/<uuid> - Update user
+2025-10-12 21:48:31,376 - __main__ - INFO -   DELETE /user/<uuid> - Delete user
+2025-10-12 21:48:36,983 - __main__ - INFO - GET /users - 127.0.0.1
+2025-10-12 21:50:21,123 - __main__ - INFO - Server interrupted by user
+2025-10-12 21:50:21,124 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 21:50:21,124 - __main__ - INFO - Server stopped
+2025-10-12 21:50:21,124 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 21:50:21,124 - __main__ - INFO - Server stopped
+2025-10-12 21:50:22,723 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-10-12 21:50:22,728 - __main__ - INFO - Starting HTTP server on localhost:8000
+2025-10-12 21:50:22,728 - __main__ - INFO - Available endpoints:
+2025-10-12 21:50:22,728 - __main__ - INFO -   GET    /           - Server info
+2025-10-12 21:50:22,731 - __main__ - INFO -   GET    /users      - List users (filters: name, place, occupation)
+2025-10-12 21:50:22,731 - __main__ - INFO -   POST   /user       - Create user
+2025-10-12 21:50:22,731 - __main__ - INFO -   PATCH  /user/<id>  - Update user
+2025-10-12 21:50:22,732 - __main__ - INFO -   DELETE /user/<id>  - Delete user
+2025-10-12 21:50:28,571 - __main__ - INFO - GET /users - 127.0.0.1
+2025-10-12 21:51:39,184 - __main__ - INFO - Server interrupted by user
+2025-10-12 21:51:39,185 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 21:51:39,186 - __main__ - INFO - Server stopped
+2025-10-12 21:51:39,186 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 21:51:39,186 - __main__ - INFO - Server stopped
+2025-10-12 21:51:40,739 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-10-12 21:51:40,743 - __main__ - INFO - Starting HTTP server on localhost:8000
+2025-10-12 21:51:40,743 - __main__ - INFO - Available endpoints:
+2025-10-12 21:51:40,743 - __main__ - INFO -   GET    /           - Server info
+2025-10-12 21:51:40,743 - __main__ - INFO -   GET    /users      - List users (filters: name, place, occupation)
+2025-10-12 21:51:40,744 - __main__ - INFO -   POST   /user       - Create user
+2025-10-12 21:51:40,744 - __main__ - INFO -   PATCH  /user/<id>  - Update user
+2025-10-12 21:51:40,744 - __main__ - INFO -   DELETE /user/<id>  - Delete user
+2025-10-12 21:51:48,881 - __main__ - INFO - GET /users - 127.0.0.1
+2025-10-12 21:52:01,186 - __main__ - INFO - Server interrupted by user
+2025-10-12 21:52:01,186 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 21:52:01,186 - __main__ - INFO - Server stopped
+2025-10-12 21:52:01,187 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 21:52:01,187 - __main__ - INFO - Server stopped
+2025-10-12 21:52:02,568 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-10-12 21:52:02,572 - __main__ - INFO - Starting HTTP server on localhost:8000
+2025-10-12 21:52:02,573 - __main__ - INFO - Available endpoints:
+2025-10-12 21:52:02,573 - __main__ - INFO -   GET    /           - Server info
+2025-10-12 21:52:02,573 - __main__ - INFO -   GET    /users      - List users (filters: name, place, occupation)
+2025-10-12 21:52:02,573 - __main__ - INFO -   POST   /user       - Create user
+2025-10-12 21:52:02,573 - __main__ - INFO -   PATCH  /user/<id>  - Update user
+2025-10-12 21:52:02,573 - __main__ - INFO -   DELETE /user/<id>  - Delete user
+2025-10-12 21:52:03,965 - __main__ - INFO - GET /users - 127.0.0.1
+2025-10-12 21:52:12,877 - __main__ - INFO - Server interrupted by user
+2025-10-12 21:52:12,877 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 21:52:12,878 - __main__ - INFO - Server stopped
+2025-10-12 21:52:12,878 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 21:52:12,878 - __main__ - INFO - Server stopped
+2025-10-12 21:54:31,118 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-10-12 21:54:31,131 - __main__ - INFO - Starting HTTP server on localhost:8000
+2025-10-12 21:54:31,132 - __main__ - INFO - Available endpoints:
+2025-10-12 21:54:31,132 - __main__ - INFO -   GET    /           - Server info
+2025-10-12 21:54:31,132 - __main__ - INFO -   GET    /users      - List users (filters: name, place, occupation)
+2025-10-12 21:54:31,132 - __main__ - INFO -   POST   /user       - Create user
+2025-10-12 21:54:31,132 - __main__ - INFO -   PATCH  /user/<id>  - Update user
+2025-10-12 21:54:31,132 - __main__ - INFO -   DELETE /user/<id>  - Delete user
+2025-10-12 21:54:35,951 - __main__ - INFO - GET /users - 127.0.0.1
+2025-10-12 21:54:48,745 - __main__ - INFO - Server interrupted by user
+2025-10-12 21:54:48,746 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 21:54:48,746 - __main__ - INFO - Server stopped
+2025-10-12 21:54:48,746 - __main__ - INFO - Stopping HTTP server...
+2025-10-12 21:54:48,746 - __main__ - INFO - Server stopped
+2025-10-12 21:54:51,141 - __main__ - INFO - Initializing Nivi Systems HTTP Server...
+2025-10-12 21:54:51,149 - __main__ - INFO - Starting HTTP server on localhost:8000
+2025-10-12 21:54:51,149 - __main__ - INFO - Available endpoints:
+2025-10-12 21:54:51,150 - __main__ - INFO -   GET    /           - Server info
+2025-10-12 21:54:51,150 - __main__ - INFO -   GET    /users      - List users (filters: name, place, occupation)
+2025-10-12 21:54:51,150 - __main__ - INFO -   POST   /user       - Create user
+2025-10-12 21:54:51,150 - __main__ - INFO -   PATCH  /user/<id>  - Update user
+2025-10-12 21:54:51,150 - __main__ - INFO -   DELETE /user/<id>  - Delete user
+2025-10-12 21:54:52,786 - __main__ - INFO - GET /users - 127.0.0.1
+2025-10-12 21:54:57,014 - __main__ - INFO - GET /user/1 - 127.0.0.1
+2025-10-12 21:56:22,460 - __main__ - INFO - PATCH /user/2 - 127.0.0.1
+2025-10-12 21:57:37,311 - __main__ - INFO - POST /user - 127.0.0.1
+2025-10-12 21:58:52,768 - __main__ - INFO - DELETE /user/10 - 127.0.0.1
