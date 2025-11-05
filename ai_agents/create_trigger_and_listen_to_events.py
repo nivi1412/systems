@@ -10,7 +10,7 @@ from composio_openai_agents import OpenAIAgentsProvider
 # Set OPENAI_API_KEY in your .env file
 load_dotenv()
 
-composio = Composio(api_key="ak_80hJOqxhAgRin46Jlgz4", provider=OpenAIAgentsProvider())
+composio = Composio(provider=OpenAIAgentsProvider())
 externalUserId = "pg-test-62dad439-6e80-46f6-a38d-9a980c8162f2"
 
 # Create a new trigger for the user's connected account
@@ -30,3 +30,6 @@ subscription = composio.triggers.subscribe()
 @subscription.handle(trigger_id=trigger.trigger_id)
 def handle_gmail_event(data):
     print(data)
+
+# listen to incoming events
+subscription.wait_forever()

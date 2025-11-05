@@ -1,4 +1,4 @@
-#fetch_tools_and_execute.py
+#fetchgooglecalenderevent_execute.py
 
 import asyncio
 from dotenv import load_dotenv
@@ -14,10 +14,10 @@ composio = Composio(provider=OpenAIAgentsProvider())
 externalUserId = "pg-test-62dad439-6e80-46f6-a38d-9a980c8162f2"
 
 # Get Gmail tools that are pre-configured
-tools = composio.tools.get(user_id=externalUserId, tools=["GMAIL_SEND_EMAIL"])
+tools = composio.tools.get(user_id=externalUserId, tools=["GOOGLECALENDAR_UPDATE_EVENT"])
 
 agent = Agent(
-    name="Email Manager", instructions="You are a helpful assistant", tools=tools
+    name="Calender Manager", instructions="You are a helpful assistant", tools=tools
 )
 
 # Run the agent

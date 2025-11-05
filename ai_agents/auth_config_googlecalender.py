@@ -1,4 +1,5 @@
-#auth_config.py
+#auth_config_googlecalender.py
+#output: ca_r9QwDG4SvRxG
 import asyncio
 from dotenv import load_dotenv
 
@@ -16,7 +17,7 @@ externalUserId = "pg-test-62dad439-6e80-46f6-a38d-9a980c8162f2"
 
 connection_request = composio.connected_accounts.link(
     user_id=externalUserId,
-    auth_config_id="ac_cW5FvZte3b8F",
+    auth_config_id="ac_m3T16TPcJc-h",
 )
 
 # Redirect user to the OAuth flow
