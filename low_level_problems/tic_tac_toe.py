@@ -7,7 +7,7 @@ class TicTacToe:
 		self.matrix=[["" for _ in range(self.size)] for _ in range(self.size)]
 
 	def insert(self, i: int, j: int, val: str):
-		self.matrix[i][j]+=val
+		self.matrix[i][j]=val
 
 	def game_over(self):
 		c1,c2,c3,c4=True,True,True,True
